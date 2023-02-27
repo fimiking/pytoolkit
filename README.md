@@ -9,6 +9,6 @@ Split large files into multiple smaller files of a specified size for easy trans
 ### Usage
 
 ```cmd
-python --split xxx.largefile 1024
-python --merge xxx.largefile.info.json
+python split_merge_large_file.py --split xxx.largefile 1024
+python split_merge_large_file.py --merge xxx.largefile.info.json
 ```
